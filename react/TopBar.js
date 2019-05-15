@@ -48,6 +48,7 @@ export default class TopBar extends Component {
         return (
             <div>
                 <img src={image}/><span>{text}</span>
+                <p>Testing</p>
             </div>
         )
     }
