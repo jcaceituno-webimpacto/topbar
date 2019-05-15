@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+.titulo{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.subt{
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+
+.boton{
+  background-color: #f2dcc9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  position: relative;
+  top: -40px;
+  font-size: 18px;
+}
+
+
+.hrcol{
+  display: flex;
+  align-items: center;
+}
+
+.hrcol hr{
+  width: 100%;
+}
+
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
