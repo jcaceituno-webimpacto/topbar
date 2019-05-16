@@ -1,40 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-
-
-.titulo{
-  text-align: center;
-  font-family: 'Dancing Script', cursive;
-}
-
-.subt{
-  text-align: center;
-  position: relative;
-  top: -40px;
-}
-
-
-.boton{
-  background-color: #f2dcc9;
-  color: white;
-  font-weight: bold;
-  border: none;
-  position: relative;
-  top: -40px;
-  font-size: 18px;
-}
-
-
-.hrcol{
+.topbar{
+  background-color: #D9D9D9;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
-.hrcol hr{
-  width: 100%;
-}
 
-
-.link{
-  text-decoration: none;
-  color: inherit;
+.topbar img{
+  height: 20px;
+  padding-right: 5px;
 }

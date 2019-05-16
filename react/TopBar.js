@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import styles from './styles.css';
+import classnames from 'classnames';
+import { ExtensionPoint, useRuntime } from 'vtex.render-runtime'
 
 
 export default class TopBar extends Component {
@@ -46,9 +49,14 @@ export default class TopBar extends Component {
         const {text}=this.props;
 
         return (
-            <div>
-                <img src={image}/><span>{text}</span>
-                <p>Testing</p>
+            <div className={classnames(styles.topbar,'pv3')}>
+                <div className="flex items-center">
+                    <img src={image}/><span>{text}</span>
+                </div>
+
+                <div className={styles.loginTopbar}>
+                    <ExtensionPoint id="loginjc"/>
+                </div>
             </div>
         )
     }
