@@ -49,7 +49,7 @@ export default class TopBar extends Component {
         const {text}=this.props;
 
         return (
-            <div className={classnames(styles.topbar,'pv3')}>
+            <div className={classnames(styles.topbar,'')}>
                 <div className="flex items-center">
                     <img src={image}/><span>{text}</span>
                 </div>

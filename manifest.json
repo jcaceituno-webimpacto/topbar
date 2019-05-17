@@ -19,6 +19,7 @@
     "vtex.store-components": "3.x",
     "vtex.slider": "0.x",
     "vtex.store-icons": "0.x",
-    "webimpacto.loginjc": "1.x"
+    "webimpacto.loginjc": "1.x",
+    "vtex.login": "2.x"
   }
 }
